@@ -15,3 +15,6 @@ git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義�
 git commit -m"一部修正" 
 git commit -m"公開待ち状態でのフラッシュメッセージが表示されるようにしました"
 add/controllsers/admin/articles/publishes_controller.rb
+
+git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
+
