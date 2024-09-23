@@ -10,3 +10,4 @@ docker compose exec web bundle install
 docker compose exec web bundle exec whenexerize .
 
 git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
+
