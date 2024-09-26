@@ -1,3 +1,4 @@
+課題のcommit 記録
 git commit -m"Rails 応用４ Rakeタスクファイル作成"
 docker compose exec web bin/rails g task article_state
 
@@ -12,4 +13,9 @@ docker compose exec web bundle exec whenexerize .
 git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
 
 git commit -m"雛形完成 タグ検索だけデータ取得できないので、今後修正予定"
+git commit -m"一部修正" 
+git commit -m"公開待ち状態でのフラッシュメッセージが表示されるようにしました"
+add/controllsers/admin/articles/publishes_controller.rb
+
+git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
 
