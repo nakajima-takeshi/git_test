@@ -11,3 +11,5 @@ docker compose exec web bundle exec whenexerize .
 
 git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
 
+git commit -m"雛形完成 タグ検索だけデータ取得できないので、今後修正予定"
+
