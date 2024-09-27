@@ -19,3 +19,10 @@ add/controllsers/admin/articles/publishes_controller.rb
 
 git commit -m"gem wheneverとcronを用いて、毎分Rakeファイルに定義された処理を行うように設定"
 
+git add .
+git commit -m"検索機能にタグ、著者のセレクトボックスと記事本文のフリーワード検索機能を追加"
+git push origin 05_search_article
+git checkout master
+git pull origin master
+
+
