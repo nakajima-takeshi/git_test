@@ -26,3 +26,18 @@ git checkout master
 git pull origin master
 
 
+git add .
+git commit -m"検索機能にタグ、著者のセレクトボックスと記事本文のフリーワード検索機能を追加"
+git push origin 05_search_article
+git checkout master
+git pull origin master
+
+git add .
+git commit -m"ユーザー権限writerにタグ、カテ ゴリ、著者の一覧表示、編集、削除が操作できないように権限を設定しました。また、権限エラー403のページを作成しました"
+git push origin 06_policy_settings
+git checkout master
+git pull origin master
+git pull origin master --rebase
+
+
+
