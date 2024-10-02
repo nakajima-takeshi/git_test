@@ -42,6 +42,8 @@ git pull origin master --rebase
 git add .
 git commit -m"アイコン切り替え"
 git commit -m"アイコン表示位置修正"
-
+git commit -m"twitter表示"
+git push origin 08
+git pull master
 
 
