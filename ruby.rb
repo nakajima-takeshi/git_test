@@ -57,3 +57,5 @@ end
 git add .
 git commit -m"RubyメソッドやRailsの演算子などまとめ"
 
+git add package.json yarn.lock
+git commit -m"yarnでswiperをインストール"
