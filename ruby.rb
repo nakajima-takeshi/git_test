@@ -59,3 +59,4 @@ git commit -m"RubyメソッドやRailsの演算子などまとめ"
 
 git add package.json yarn.lock
 git commit -m"yarnでswiperをインストール"
+git commit -m"ファイルの読み込み"
