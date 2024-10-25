@@ -1,8 +1,6 @@
-scores = [68, 20, 44, 100, 75]
-
-ranked_scores = scores.each_with_index.sort_by { |score, index| -score }
-
-ranked_scores.each_with_index do |(score, index), rank|
-  puts "Rank #{rank + 1}: Player #{index + 1} Score #{score}"
+def number_of_steps(d, s)
+ d, s = input_line.split.map(&:to_i)
+ p d, s
+puts d * 1000 * 100 / s > 9999 ? 'yes' : 'no'
 end
-
+number_of_steps(3, 30)
